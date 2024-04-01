@@ -1,0 +1,45 @@
+{
+  "destination_country_dropdown_click": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//label[text()='Destination Country']/..//div[text()='Select...']"
+  },
+
+  "destination_country_dropdown_select_single": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-option' and contains(.,'KUWAIT')]"
+  },
+
+  "destination_country_dropdown_select_multiple": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-option' and contains(.,'${element1}')]"
+  },
+
+  "your_send_text": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//label[text()='You Send']/..//input[@value='100']"
+  },
+
+  "your_receive_text": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='Select-menu-outer']//div[contains(@class,'Select-option') and contains(.,'${element1}')]"
+  },
+
+  "price_calculated": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='input-wrapper odd']//div[@class='left-section']//span"
+  }
+
+
+}

@@ -1,0 +1,91 @@
+{
+  "run": "Orangehrm",
+
+  "config": {
+    "Orangehrm": {
+      "platform": "web",
+      "browser": "Chrome",
+      "capabilities": {
+        "browserName": "Chrome",
+        "browserVersion": "latest",
+        "projectName": "orangehrm12"
+      },
+      "env": "https://www.almullaexchange.com/kwt/en_US/",
+      "isGrid": false,
+      "gridPlatform": "local",
+      "testNGsuite": [
+        "login.xml"
+      ]
+    },
+    "nevvon_prod_admin": {
+      "platform": "web",
+      "browser": "chrome",
+      "capabilities": {},
+      "env": "https://test.nevvon.com/",
+      "isGrid": false,
+      "gridURL": "",
+      "viewPort": "",
+      "apiTestConfig": {
+        "enable": true,
+        "env": ""
+      },
+      "testNGsuite": [
+        "smoke.xml"
+      ]
+    },
+    "nevvon_android": {
+      "platform": "android",
+      "app": "app-release.apk",
+      "capabilities": {
+        "platformName": "android",
+        "appium:deviceName": "pixel_4_Api_Sv2",
+        "appium:platformVersion": "12.0",
+        "appium:automationName": "UiAutomator2",
+        "appium:adbExecTimeout": 30000
+      },
+      "testNGsuite": [
+        "nevvon_android_all.xml"
+      ],
+      "appiumPlatform": "browserstack",
+      "appiumURL": "http://0.0.0.0:4723/wd/hub"
+    },
+    "nevvon_iOS": {
+      "platform": "iOS",
+      "capabilities": {
+        "platformName": "iOS",
+        "app": "/Users/viralpatel/Downloads/Upwork/App/FreelancersDM-iphonesimulator-iOS14-1.38.0.14.app",
+        "deviceName": "iPhone 13",
+        "platformVersion": "15.2",
+        "automationName": "XCUITest"
+      },
+      "testNGsuite": [
+        "smoke.xml"
+      ],
+      "appiumURL": "http://0.0.0.0:4723/wd/hub"
+    },
+    "nevvon_test_api": {
+      "platform": "api",
+      "enable": true,
+      "env": "https://public-api-test.cpl.nevvon.com",
+      "testNGsuite": [
+        "nevvon_public_api.xml"
+      ]
+    },
+    "nevvon_demo_api": {
+      "platform": "api",
+      "enable": true,
+      "env": "https://pubapi.nevvon.com/v1",
+      "testNGsuite": [
+        "nevvon_public_api.xml"
+      ]
+    },
+    "API_Regression": {
+      "platform": "api",
+      "enable": true,
+      "env": "https://v3api.lifeisgoodforlearner.com",
+      "testNGsuite": [
+        "sequence.xml"
+      ]
+    }
+  }
+}
