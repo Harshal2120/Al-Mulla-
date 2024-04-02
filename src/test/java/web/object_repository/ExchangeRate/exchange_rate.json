@@ -24,14 +24,43 @@
     "platform": "web",
     "element_type": "textbox",
     "locator_type": "xpath",
-    "web_locator": "//label[text()='You Send']/..//input[@value='100']"
+    "web_locator": "//label[text()='You Send']/..//input"
   },
-
-  "your_receive_text": {
+  "your_receive_text_box": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[contains(@class,'for-cur')]//input[contains(@type,'text')]"
+  },
+  "your_receive_text_multiple": {
     "platform": "web",
     "element_type": "dropdown",
     "locator_type": "xpath",
     "web_locator": "//div[@class='Select-menu-outer']//div[contains(@class,'Select-option') and contains(.,'${element1}')]"
+  },
+  "your_receive_single": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='Select-menu-outer']//div[contains(@class,'Select-option') and contains(.,'${element1}')]"
+  },
+  "select_currency_from_dropdown": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@id='react-select-3--value']//div[@class='Select-placeholder'][normalize-space()='Select...']"
+  },
+  "select_currency_as_usd": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": " //label[text()='You Receive']/../..//div[contains(@class,'Select has-value is-focused')]//div[contains(@class,'Select-option') and contains(.,'USD')]"
+  },
+  "select_currency_as_eur": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//label[text()='You Receive']/../..//div[contains(@class,'Select has-value is-focused')]//div[contains(@class,'Select-option') and contains(.,'EUR')]"
   },
 
   "price_calculated": {
@@ -39,6 +68,12 @@
     "element_type": "dropdown",
     "locator_type": "xpath",
     "web_locator": "//div[@class='input-wrapper odd']//div[@class='left-section']//span"
+  },
+  "daily_amount": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class='bene-exrate selected']//span)[1]"
   }
 
 

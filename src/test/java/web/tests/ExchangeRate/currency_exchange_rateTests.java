@@ -2,6 +2,7 @@ package web.tests.ExchangeRate;
 
 import io.unity.framework.init.base;
 import io.unity.framework.readers.DataReaders;
+import org.openxmlformats.schemas.spreadsheetml.x2006.main.STSourceType;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import web.object_repository.ExchangeRate.exchange_rate;
@@ -29,8 +30,16 @@ public class currency_exchange_rateTests extends base {
 
         exchange_rate.select_country_from_dropdown("destination_country_dropdown_select_single");
 
-        exchange_rate.enter_you_send();
+        String amount = "110";
+        exchange_rate.enter_you_send(amount);
 
+        String you = exchange_rate.get_value();
+        exchange_rate.extractNumericValue(you);
+        exchange_rate.get_text();
+
+        String value = exchange_rate.get_text();
+        int ghsdvqhvd = exchange_rate.final_exchange_value(value,amount);
+        System.out.println(ghsdvqhvd);
 
     }
 

@@ -276,12 +276,13 @@ public class Element {
 
     public void clear_text_field(String locator_value) {
         logs.test_step("clear value from " + locator_value + " text fields");
+
         find(locator_value).clear();
     }
 
     public void clear_and_enter_in_text_field(String locator_value, String text_to_enter) {
         logs.test_step("clear value from " + locator_value + " text fields and enter text " + text_to_enter);
-        find(locator_value).clear();
+        find(locator_value).sendKeys(Keys.CONTROL,"a",Keys.DELETE);
         find(locator_value).sendKeys(text_to_enter);
     }
 
