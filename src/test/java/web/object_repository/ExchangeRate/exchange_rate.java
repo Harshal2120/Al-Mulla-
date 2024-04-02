@@ -4,7 +4,6 @@ import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
 import org.openqa.selenium.WebDriver;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -36,9 +35,9 @@ public class exchange_rate {
         wait.wait_for_second(10);
     }
 
-    public void enter_you_send(String amount) {
+    public void enter_you_send(String enterAmount) {
         wait.wait_for_second(2);
-        element.clear_and_enter_in_text_field("your_send_text", amount);
+        element.clear_and_enter_in_text_field("your_send_text", enterAmount);
     }
 
     public void you_receive_amount() {
@@ -81,12 +80,6 @@ public class exchange_rate {
         return ele;
     }
 
-    public String get_text() {
-        String ele = element.get_element_text("daily_amount");
-        String number = extractNumericValue(ele);
-        return number;
-    }
-
     public String extractNumericValue(String text) {
 
         Pattern pattern = Pattern.compile("\\d+(\\.\\d+)");
@@ -97,6 +90,37 @@ public class exchange_rate {
         }
         return "";
     }
+
+    public int get_received_value() {
+        String receive_value = element.get_attribute_value("you_receive_value", "value");
+        int intValue = Integer.parseInt(receive_value);
+        return intValue;
+    }
+
+    public void get_daily_kwd() {
+        wait.wait_for_second(2);
+        String dailyKwd = element.get_element_text("get_daily_kwd");
+        System.out.println(dailyKwd);
+    }
+
+    public void get_daily_date_time_and_delivery() {
+        wait.wait_for_second(1);
+        String date_time_delivery = element.get_element_text("get_daily_date_time_delivery");
+        System.out.println(date_time_delivery);
+    }
+
+    public void get_daily_fees() {
+        wait.wait_for_second(1);
+        String daily_fees = element.get_element_text("get_daily_fees");
+        System.out.println(daily_fees);
+    }
+
+    /*public void selecting_country_from_dropdown_(String country){
+        List<WebElement> element3 = element.click("country_select_from_dropdown");
+        for (String all_element : element3){
+
+       }*/
+
 }
 
 

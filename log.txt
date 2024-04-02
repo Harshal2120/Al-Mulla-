@@ -1,8 +1,8 @@
-2024-04-02 14:23:56 [main] io.unity.framework.init.base.init()
+2024-04-02 16:34:20 [main] io.unity.framework.init.base.init()
 INFO: Base config to run : Orangehrm
-2024-04-02 14:24:11 [main] io.unity.performaction.autoweb.testng_logs.test_step()
+2024-04-02 16:34:40 [main] io.unity.performaction.autoweb.testng_logs.test_step()
 INFO: Step : Click on destination_country_dropdown_click
-2024-04-02 14:24:17 [main] io.unity.performaction.autoweb.testng_logs.test_step()
+2024-04-02 16:34:45 [main] io.unity.performaction.autoweb.testng_logs.test_step()
 INFO: Step : Click on destination_country_dropdown_select_single
-2024-04-02 14:24:29 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : clear value from your_send_text text fields and enter text 110
+2024-04-02 16:34:57 [main] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : clear value from your_send_text text fields and enter text 498

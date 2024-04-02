@@ -1,9 +1,8 @@
 package web.tests.ExchangeRate;
 
+import io.unity.framework.data.TestDatas;
 import io.unity.framework.init.base;
-import io.unity.framework.readers.DataReaders;
-import org.openxmlformats.schemas.spreadsheetml.x2006.main.STSourceType;
-import org.testng.annotations.DataProvider;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import web.object_repository.ExchangeRate.exchange_rate;
 
@@ -30,18 +29,28 @@ public class currency_exchange_rateTests extends base {
 
         exchange_rate.select_country_from_dropdown("destination_country_dropdown_select_single");
 
-        String amount = "110";
+        //enter your amount
+        String amount = TestDatas.random_numeric_string(3);
         exchange_rate.enter_you_send(amount);
 
-        String you = exchange_rate.get_value();
-        exchange_rate.extractNumericValue(you);
-        exchange_rate.get_text();
+        //get daily amount
+        String get_daily_amount = exchange_rate.get_value();
 
-        String value = exchange_rate.get_text();
-        int ghsdvqhvd = exchange_rate.final_exchange_value(value,amount);
-        System.out.println(ghsdvqhvd);
+        //extracting numeric value
+        String extracted_value = exchange_rate.extractNumericValue(get_daily_amount);
+
+        //calculation
+        int get_calculated_value = exchange_rate.final_exchange_value(extracted_value,amount);
+        System.out.println(get_calculated_value);
+        int expected_value= exchange_rate.get_received_value();
+
+        //comparing calculated and actual value
+        Assert.assertEquals(get_calculated_value,expected_value);
+        System.out.println(expected_value);
+
+        exchange_rate.get_daily_kwd();
+        exchange_rate.get_daily_date_time_and_delivery();
+        exchange_rate.get_daily_fees();
 
     }
-
-
 }

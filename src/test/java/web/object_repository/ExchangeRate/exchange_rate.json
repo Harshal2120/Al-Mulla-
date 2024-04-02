@@ -10,7 +10,7 @@
     "platform": "web",
     "element_type": "dropdown",
     "locator_type": "xpath",
-    "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-option' and contains(.,'KUWAIT')]"
+    "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-option' and contains(.,'INDIA')]"
   },
 
   "destination_country_dropdown_select_multiple": {
@@ -74,6 +74,36 @@
     "element_type": "dropdown",
     "locator_type": "xpath",
     "web_locator": "(//div[@class='bene-exrate selected']//span)[1]"
+  },
+  "you_receive_value": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//label[text()='You Receive']/parent::div//input"
+  },
+  "get_daily_kwd": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='left-section']//span"
+  },
+  "get_daily_date_time_delivery": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class='right-section']//span)[1]"
+  },
+  "get_daily_fees": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class='right-section']//span)[2]"
+  },
+  "country_select_from_dropdown": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-option']"
   }
 
 
