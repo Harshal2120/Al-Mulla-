@@ -104,6 +104,18 @@
     "element_type": "dropdown",
     "locator_type": "xpath",
     "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-option']"
+  },
+  "select_currency_of_different_countries_from_dropdown": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-menu']//div"
+  },
+  "click_on_currency_of_different_countries_dropdown": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"Select-value\"])[2]"
   }
 
 

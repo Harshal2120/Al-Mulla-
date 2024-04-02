@@ -4,6 +4,9 @@ import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -115,12 +118,29 @@ public class exchange_rate {
         System.out.println(daily_fees);
     }
 
+    public String select_different_countries_after_entering_amount(String enter_name) {
+        wait.wait_for_second(2);
+        element.click("click_on_currency_of_different_countries_dropdown");
+        wait.wait_for_second(4);
+        element.click("select_currency_of_different_countries_from_dropdown");
+        wait.wait_for_second(3);
+        List<WebElement> con = element.find_multiple_elements("select_currency_of_different_countries_from_dropdown");
+        for (WebElement textElement : con) {
+            String text = textElement.getText();
+            if (text.equals(enter_name)) {
+                break; // Exit the loop once a matching element is found
+            }
+            return text;
+        }
+
+        return "";
+
     /*public void selecting_country_from_dropdown_(String country){
         List<WebElement> element3 = element.click("country_select_from_dropdown");
         for (String all_element : element3){
 
        }*/
-
+    }
 }
 
 

@@ -52,5 +52,8 @@ public class currency_exchange_rateTests extends base {
         exchange_rate.get_daily_date_time_and_delivery();
         exchange_rate.get_daily_fees();
 
+        exchange_rate.select_different_countries_after_entering_amount("USD");
+
+
     }
 }
