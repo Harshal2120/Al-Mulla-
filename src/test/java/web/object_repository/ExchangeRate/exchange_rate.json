@@ -10,112 +10,62 @@
     "platform": "web",
     "element_type": "dropdown",
     "locator_type": "xpath",
-    "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-option' and contains(.,'INDIA')]"
+    "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-option' and contains(.,'KUWAIT')]"
   },
 
   "destination_country_dropdown_select_multiple": {
     "platform": "web",
     "element_type": "dropdown",
-    "locator_type": "xpath",
+    "locator_type": "dyn-xpath",
     "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-option' and contains(.,'${element1}')]"
   },
 
-  "your_send_text": {
+  "your_send_text_single": {
     "platform": "web",
     "element_type": "textbox",
     "locator_type": "xpath",
     "web_locator": "//label[text()='You Send']/..//input"
   },
-  "your_receive_text_box": {
+
+  "your_send_text_multiple": {
     "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "//div[contains(@class,'for-cur')]//input[contains(@type,'text')]"
-  },
-  "your_receive_text_multiple": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "//div[@class='Select-menu-outer']//div[contains(@class,'Select-option') and contains(.,'${element1}')]"
-  },
-  "your_receive_single": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "//div[@class='Select-menu-outer']//div[contains(@class,'Select-option') and contains(.,'${element1}')]"
-  },
-  "select_currency_from_dropdown": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "//div[@id='react-select-3--value']//div[@class='Select-placeholder'][normalize-space()='Select...']"
-  },
-  "select_currency_as_usd": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": " //label[text()='You Receive']/../..//div[contains(@class,'Select has-value is-focused')]//div[contains(@class,'Select-option') and contains(.,'USD')]"
-  },
-  "select_currency_as_eur": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "//label[text()='You Receive']/../..//div[contains(@class,'Select has-value is-focused')]//div[contains(@class,'Select-option') and contains(.,'EUR')]"
+    "element_type": "textbox",
+    "locator_type": "dyn-xpath",
+    "web_locator": "//label[text()='You Send']/..//input[@value='${element1}']"
   },
 
-  "price_calculated": {
+  "your_receive_text_currency_type_multiple": {
     "platform": "web",
     "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "//div[@class='input-wrapper odd']//div[@class='left-section']//span"
+    "locator_type": "dyn-xpath",
+    "web_locator": "//label[text()='You Receive']/../..//div[contains(@class,'Select has-value is-focused')]//div[contains(@class,'Select-option') and contains(.,'${element1}')]"
   },
-  "daily_amount": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "(//div[@class='bene-exrate selected']//span)[1]"
-  },
-  "you_receive_value": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "//label[text()='You Receive']/parent::div//input"
-  },
-  "get_daily_kwd": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "//div[@class='left-section']//span"
-  },
-  "get_daily_date_time_delivery": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "(//div[@class='right-section']//span)[1]"
-  },
-  "get_daily_fees": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "(//div[@class='right-section']//span)[2]"
-  },
-  "country_select_from_dropdown": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-option']"
-  },
-  "select_currency_of_different_countries_from_dropdown": {
-    "platform": "web",
-    "element_type": "dropdown",
-    "locator_type": "xpath",
-    "web_locator": "//div[@class='Select-menu-outer']//div[@class='Select-menu']//div"
-  },
-  "click_on_currency_of_different_countries_dropdown": {
+  "your_receive_text_currency_type_single": {
     "platform": "web",
     "element_type": "dropdown",
     "locator_type": "xpath",
     "web_locator": "(//div[@class=\"Select-value\"])[2]"
+  },
+
+  "price_calculated_today": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[contains(@class,'bene-exrate selected')]//div[contains(@class,'left-section')]//span[1]"
+  },
+
+  "date_and_time_of_delivery": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='bene-exrate selected']//div[@class='right-section']//span[1]"
+  },
+
+  "fee_amount_currency_exchange": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='bene-exrate selected']//div[@class='right-section']//span[2]"
   }
 
 

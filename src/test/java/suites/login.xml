@@ -4,7 +4,7 @@
     <!-- 1 -->
     <test name = "exchange_rate">
         <classes>
-            <class name = "web.tests.ExchangeRate.currency_exchange_rateTests" >
+            <class name = "web.tests.ExchangeRate.exchangeRate_test" >
                 <methods>
                     <include name="verify_data_is_selected"> </include>
                 </methods>
