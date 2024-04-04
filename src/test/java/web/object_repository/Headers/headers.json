@@ -106,5 +106,18 @@
     "element_type": "dropdown",
     "locator_type": "xpath",
     "web_locator": "//a[contains(text(),'نبذة عن الشركة')]"
+  },
+  "about_us_in_english": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//ul[@class='nav navbar-nav']//a[contains(@href,'about-us')]"
+  },
+  "about_us_text_in_english": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//section[@id='about-us']//h2"
   }
+
 }

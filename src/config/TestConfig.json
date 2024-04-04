@@ -1,21 +1,22 @@
 {
-  "run": "Orangehrm",
+  "run": "Al_Mulla",
 
   "config": {
-    "Orangehrm": {
+    "Al_Mulla": {
       "platform": "web",
       "browser": "Chrome",
       "capabilities": {
         "browserName": "Chrome",
         "browserVersion": "latest",
-        "projectName": "orangehrm12"
+        "projectName": "Al_Mulla_POC"
       },
       "env": "https://www.almullaexchange.com/kwt/en_US/",
       "isGrid": false,
       "gridPlatform": "local",
       "testNGsuite": [
-        "login.xml"
-      ]
+        "Al_Mulla.xml"
+      ],
+      "tesboReportKey": ""
     },
     "nevvon_prod_admin": {
       "platform": "web",

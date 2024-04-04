@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Smoke ]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Verify_remit_online(failed)">
+    <classes>
+      <class name="web.tests.Remit_online_test.remit_online_test">
+        <methods>
+          <include name="init"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="verify_remit_online" invocation-numbers="0"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- web.tests.Remit_online_test.remit_online_test -->
+    </classes>
+  </test> <!-- Verify_remit_online(failed) -->
+  <test thread-count="2" parallel="tests" name="Verify_headers_data(failed)">
+    <classes>
+      <class name="web.tests.HeadersTest.headers_test">
+        <methods>
+          <include name="init"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="verify_data_in_header" invocation-numbers="0"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- web.tests.HeadersTest.headers_test -->
+    </classes>
+  </test> <!-- Verify_headers_data(failed) -->
+</suite> <!-- Failed suite [Smoke ] -->

@@ -104,13 +104,16 @@ public class headers {
         Assert.assertEquals(element.get_element_text("how_can_we_help_you_when_clicked_on_faq"), text_to_enter);
     }
 
-    public void click_and_verify_arabic_link(String text_to_enter, String Arabic) {
+    public void click_and_verify_arabic_link(String about_us_header_in_arabic, String about_us_text_in_arabic, String Arabic) {
         wait.wait_for_second(2);
         element.click("arabic_language_link_text");
         wait.wait_for_second(5);
         Assert.assertEquals(driver.getCurrentUrl(), Arabic);
         wait.wait_for_second(3);
-        Assert.assertEquals(element.get_element_text("arabic_language_page_text_when_clicked_on_arabic_language"), text_to_enter);
+        Assert.assertEquals(element.get_element_text("about_us_in_english"), about_us_header_in_arabic);
+        element.click("about_us_in_english");
+        wait.wait_for_second(2);
+        Assert.assertEquals(element.get_element_text("about_us_text_in_english"),about_us_text_in_arabic );
     }
 }
 

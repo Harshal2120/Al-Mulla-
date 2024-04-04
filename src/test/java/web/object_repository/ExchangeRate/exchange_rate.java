@@ -5,16 +5,17 @@ import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class exchange_rate {
 
-    WebDriver driver ;
-    Element element ;
-    Verify verify ;
-    Wait wait ;
+    WebDriver driver = null;
+    Element element = null;
+    Verify verify = null;
+    Wait wait = null;
 
     public exchange_rate(WebDriver driver) {
         this.driver = driver;
@@ -25,6 +26,7 @@ public class exchange_rate {
     public void enter_destination_country() {
         wait.wait_for_second(5);
         element.click("destination_country_dropdown_click");
+        // element.enter_text("destination_country_dropdown_enter_value",value);
     }
     public void select_country_from_dropdown(String DestinationCountry) {
         wait.wait_for_second(5);
@@ -33,22 +35,9 @@ public class exchange_rate {
         wait.wait_for_second(10);
     }
 
-    public void enter_you_send(String yourSend) {
-        String value= yourSend.replaceAll("\\..*", "");
-        Map dynamic_value_send = new HashMap();
-        dynamic_value_send.put("element1",value);
-
+    public void enter_you_send(String value) {
         wait.wait_until_element_is_clickable("your_send_text_single");
         element.clear_and_enter_in_text_field("your_send_text_single",value);
-        String today_exchange_value = get_conversion_rate_today();
-        String hh = get_currency_type();
-        String total_value_changed = today_exchange_value.replaceFirst(".*=", "").replace(hh,"");
-        System.out.println("Current exchange value is: "+ total_value_changed);
-
-        double doubleValue = Double.parseDouble(total_value_changed);
-        int your_are_sending = Integer.parseInt(value);
-        long roundedResult = Math.round( doubleValue* your_are_sending);
-        System.out.println("Exchange value is: " +roundedResult);
     }
 
     public void click_you_receive_drop_down() {
@@ -61,39 +50,34 @@ public class exchange_rate {
     public String get_enter_you_send(){
         wait.wait_for_second(15);
         String str = element.get_attribute_value("your_send_text_single","value");
-        System.out.println("Amount you want to convert: " + str);
         return str;
     }
 
     public String get_currency_type(){
         String str = element.get_element_text("your_receive_text_currency_type_single");
-        System.out.println("Currency type is: " + str);
         return str;
     }
 
     public String get_conversion_rate_today(){
-        wait.wait_for_second(5);
+        wait.wait_for_second(2);
         String str = element.get_element_text("price_calculated_today");
         return str;
     }
 
-    public void get_current_date_and_time(){
+    public String get_current_date_and_time(){
         wait.wait_until_element_is_visible("date_and_time_of_delivery");
         String str = element.get_element_text("date_and_time_of_delivery");
-        System.out.println("Current date of exchange is: " + str);
-
+        return str;
     }
 
-    public void get_total_fee_to_be_deducted(){
+    public String get_total_fee_to_be_deducted(){
         wait.wait_until_element_is_visible("fee_amount_currency_exchange");
         String str = element.get_element_text("fee_amount_currency_exchange");
-        System.out.println("Total fee to be deducted is:" + str);
-
+        return str;
     }
 
-    public void create_dynamically_locator(String locator, Map<String, String> dynamic_value ) {
-        try { Map dynamic_value_you_receive = new HashMap();
-            dynamic_value_you_receive.put("element1","");
+    public void create_dynamically_locator(String locator, Map<String, String> dynamic_value){
+        try {
             element.find_element_using_dynamic_xpath(locator,dynamic_value).click();
         } catch (locator_validation_exception e) {
             e.printStackTrace();
@@ -109,19 +93,71 @@ public class exchange_rate {
         }
     }
 
-    public void dynamic_value_input(String destinationCountry) {
-        {
-            wait.wait_for_second(4);
-            Map dynamic_value_country = new HashMap();
-            dynamic_value_country.put("element1", destinationCountry);
+    // Dynamic method example
+    public void perform_country_selection(String destinationCountry) {
+        Map<String, String> dynamic_value_country = new HashMap<>();
+        dynamic_value_country.put("element1", destinationCountry);
 
-            if(dynamic_value_country.containsValue(destinationCountry)) {
-                create_dynamically_locator("destination_country_dropdown_select_multiple", dynamic_value_country);
-            }else{
-                select_country_from_dropdown("destination_country_dropdown_select_single");
-            }
+        if(dynamic_value_country.containsValue(destinationCountry)) {
+            create_dynamically_locator("destination_country_dropdown_select_multiple", dynamic_value_country);
+        } else {
+            select_country_from_dropdown("destination_country_dropdown_select_single");
         }
-
     }
 
+    public void enter_your_send(String yourSend) {
+        String value= yourSend.replaceAll("\\..*", "");
+
+
+        Map dynamic_value_send = new HashMap();
+        dynamic_value_send.put("element1",value);
+
+        enter_you_send(yourSend.replaceAll("\\..*", ""));
     }
+
+    public void perform_you_receive_selection(String youReceive) {
+        Map<String, String> dynamic_value_country = new HashMap<>();
+        dynamic_value_country.put("element1", youReceive);
+
+        click_you_receive_drop_down();
+
+        if(dynamic_value_country.containsValue(youReceive)) {
+            create_dynamically_locator("your_receive_text_currency_type_multiple", dynamic_value_country);
+        } else {
+            System.out.println("Selected default currency return type");
+        }
+    }
+
+    public void get_total_exchange_report(){
+
+        String get_currency_type = get_currency_type();
+        System.out.println("Currency type is: "+get_currency_type);
+        Reporter.log("Currency type is: "+get_currency_type);
+
+        String today_exchange_value = get_conversion_rate_today();
+        String total_value_changed = today_exchange_value.replaceFirst(".*=", "").replace(get_currency_type,"");
+        System.out.println("Current exchange value is: "+total_value_changed);
+        Reporter.log("Current exchange value is: "+total_value_changed);
+
+
+        System.out.println("Amount you want to convert: "+get_enter_you_send());
+        Reporter.log("Amount you want to convert: "+get_enter_you_send());
+
+        int your_send = Integer.parseInt(get_enter_you_send());
+        double doubleValue = Double.parseDouble(total_value_changed);
+
+        long roundedResult = Math.round(doubleValue * your_send);
+
+        System.out.println("Exchange value is: " +roundedResult);
+        Reporter.log("Exchange value is: " +roundedResult);
+
+        String current_date_of_exchange_is = get_current_date_and_time();
+        System.out.println("Current date of exchange is: " +current_date_of_exchange_is);
+        Reporter.log("Current date of exchange is: " +current_date_of_exchange_is);
+
+        String total_fee_to_be_deducted_is = get_total_fee_to_be_deducted();
+        System.out.println("Total fee to be deducted is: " +total_fee_to_be_deducted_is);
+        Reporter.log("Total fee to be deducted is: " +total_fee_to_be_deducted_is);
+    }
+
+}

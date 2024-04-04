@@ -19,7 +19,7 @@ public class headers_test extends base {
     }
 
     @Test(dataProvider = "get_texts_link")
-    public void verify_headers(String About_us, String Services, String Branches, String Promotions, String Contact, String Remit_online, String News , String FAQS, String Arabic){
+    public void verify_data_in_header(String About_us, String Services, String Branches, String Promotions, String Contact, String Remit_online, String News , String FAQS, String Arabic){
         headers = new headers(driver);
         headers.click_and_verify_about_us_link("ABOUT US", About_us );
         headers.click_and_verify_services_link("WHY AL MULLA EXCHANGE?", Services);
@@ -29,7 +29,7 @@ public class headers_test extends base {
         headers.click_and_verify_remit_online_link("LOGIN",Remit_online );
         headers.click_and_verify_news_link("NEWS", News );
         headers.click_and_verify_faq_link("How can we help you?", FAQS);
-        headers.click_and_verify_arabic_link("نبذة عن الشركة", Arabic);
+        headers.click_and_verify_arabic_link("نبذة عن الشركة","نبذة عن الشركة" ,Arabic);
     }
 }
 

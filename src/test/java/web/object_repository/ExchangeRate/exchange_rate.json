@@ -6,6 +6,13 @@
     "web_locator": "//label[text()='Destination Country']/..//div[text()='Select...']"
   },
 
+  "destination_country_dropdown_enter_value": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//label[text()='Destination Country']/..//div[text()='Select...']/..//input"
+  },
+
   "destination_country_dropdown_select_single": {
     "platform": "web",
     "element_type": "dropdown",
@@ -66,6 +73,20 @@
     "element_type": "dropdown",
     "locator_type": "xpath",
     "web_locator": "//div[@class='bene-exrate selected']//div[@class='right-section']//span[2]"
+  },
+
+  "arabic_language_change": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//ul[@class='nav navbar-nav']//li//a[contains(.,'العربية')]"
+  },
+
+  "promotion_arabic_language": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//ul[@class='nav navbar-nav']//li//a[contains(@href,'promotions')]"
   }
 
 

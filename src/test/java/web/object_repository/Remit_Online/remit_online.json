@@ -15,7 +15,7 @@
     "platform": "web",
     "element_type": "dropdown",
     "locator_type": "xpath",
-    "web_locator": "(//input[@id='civil-id'])[1]"
+    "web_locator": "//input[@id='civil-id']"
   },
   "send_otp_button_on_remit_online": {
     "platform": "web",
@@ -28,5 +28,11 @@
     "element_type": "dropdown",
     "locator_type": "xpath",
     "web_locator": "//span[contains(text(),'Length of Civil ID should be 12 digits')]"
+  },
+  "invalid_message_after_invalid_12_digits_on_remit_online": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//span[contains(text(),'Civil Id 232445678965 is not valid.')]"
   }
 }

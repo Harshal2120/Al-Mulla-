@@ -1,16 +1,58 @@
-2024-04-04 00:51:19 [main] io.unity.framework.init.base.init()
-INFO: Base config to run : Orangehrm
-2024-04-04 00:51:32 [main] io.unity.performaction.autoweb.testng_logs.test_step()
+2024-04-04 11:49:40 [TestNG-tests-1] io.unity.framework.init.base.init()
+INFO: Base config to run : Al_Mulla
+2024-04-04 11:49:55 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on destination_country_dropdown_click
+2024-04-04 11:49:56 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : clear value from your_send_text_single text fields and enter text 80
+2024-04-04 11:50:04 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on your_receive_text_currency_type_single
+2024-04-04 11:50:57 [TestNG-tests-1] io.unity.framework.init.base.init()
+INFO: Base config to run : Al_Mulla
+2024-04-04 11:51:14 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on destination_country_dropdown_click
+2024-04-04 11:51:14 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : clear value from your_send_text_single text fields and enter text 110
+2024-04-04 11:51:23 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on your_receive_text_currency_type_single
+2024-04-04 11:52:15 [TestNG-tests-1] io.unity.framework.init.base.init()
+INFO: Base config to run : Al_Mulla
+2024-04-04 11:52:30 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on destination_country_dropdown_click
+2024-04-04 11:52:30 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : clear value from your_send_text_single text fields and enter text 150
+2024-04-04 11:52:39 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on your_receive_text_currency_type_single
+2024-04-04 11:53:32 [TestNG-tests-1] io.unity.framework.init.base.init()
+INFO: Base config to run : Al_Mulla
+2024-04-04 11:53:46 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on about_us_link_text
+2024-04-04 11:53:54 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on services_link_text
+2024-04-04 11:54:02 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on branches_link_text
+2024-04-04 11:54:11 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on promotions_link_text
+2024-04-04 11:54:19 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on contact_link_text
+2024-04-04 11:54:27 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on remit_online_link_text
+2024-04-04 11:54:37 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on news_link_text
+2024-04-04 11:54:49 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on faq_link_text
+2024-04-04 11:54:59 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on arabic_language_link_text
+2024-04-04 11:55:11 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on about_us_in_english
+2024-04-04 11:55:12 [TestNG-tests-1] io.unity.framework.init.base.init()
+INFO: Base config to run : Al_Mulla
+2024-04-04 11:55:23 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
 INFO: Step : Click on remit_online_linked_text
-2024-04-04 00:51:39 [main] io.unity.performaction.autoweb.testng_logs.test_step()
+2024-04-04 11:55:30 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
 INFO: Step : Click on sign_up_on_remit_online_page
-2024-04-04 00:51:43 [main] io.unity.performaction.autoweb.testng_logs.test_step()
+2024-04-04 11:55:33 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
 INFO: Step : Click on civil_id_text_on_remit_online
-2024-04-04 00:51:45 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Enter text 236 at locator civil_id_text_on_remit_online
-2024-04-04 00:51:47 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on send_otp_button_on_remit_online
-2024-04-04 00:51:51 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Enter text 746993740982 at locator civil_id_text_on_remit_online
-2024-04-04 00:51:54 [main] io.unity.performaction.autoweb.testng_logs.test_step()
+2024-04-04 11:55:34 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Enter text 353747 at locator civil_id_text_on_remit_online
+2024-04-04 11:55:36 [TestNG-tests-1] io.unity.performaction.autoweb.testng_logs.test_step()
 INFO: Step : Click on send_otp_button_on_remit_online

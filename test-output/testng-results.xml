@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Step : Click on about_us_link_text<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on services_link_text<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on branches_link_text<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on promotions_link_text<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on contact_link_text<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on remit_online_link_text<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on news_link_text<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on faq_link_text<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on arabic_language_link_text<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on remit_online_linked_text<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on sign_up_on_remit_online_page<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on civil_id_text_on_remit_online<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 236 at locator civil_id_text_on_remit_online<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on send_otp_button_on_remit_online<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-04T10:58:03 IST" name="Smoke " finished-at="2024-04-04T11:00:17 IST" duration-ms="134632">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T10:58:03 IST" name="Verify_headers_data" finished-at="2024-04-04T10:59:42 IST" duration-ms="98808">
+      <class name="web.tests.HeadersTest.headers_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.HeadersTest.headers_test@74fe5c40]" started-at="2024-04-04T10:58:03 IST" name="init" finished-at="2024-04-04T10:58:14 IST" duration-ms="10843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verify_data_in_header(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.HeadersTest.headers_test@74fe5c40]" started-at="2024-04-04T10:58:14 IST" name="verify_data_in_header" data-provider="get_texts_link" finished-at="2024-04-04T10:59:41 IST" duration-ms="86908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.almullaexchange.com/kwt/en_US/#about-us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.almullaexchange.com/kwt/en_US/#services]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.almullaexchange.com/kwt/en_US/#branches]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.almullaexchange.com/kwt/en_US/#promotions2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://www.almullaexchange.com/kwt/en_US/#contacts]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[https://app-kwt.almullaexchange.com/login]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.almullaexchange.com/kwt/en_US/news/]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[https://www.almullaexchange.com/kwt/en_US/faq/]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[https://www.almullaexchange.com/kwt/ar/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step : Click on about_us_link_text<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on services_link_text<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on branches_link_text<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on promotions_link_text<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on contact_link_text<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on remit_online_link_text<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on news_link_text<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on faq_link_text<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on arabic_language_link_text<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_data_in_header -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.HeadersTest.headers_test@74fe5c40]" started-at="2024-04-04T10:59:41 IST" name="tear_down" finished-at="2024-04-04T10:59:42 IST" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_data_in_header status=SUCCESS method=headers_test.verify_data_in_header(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.HeadersTest.headers_test@74fe5c40] output=Step : Click on about_us_link_text<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- web.tests.HeadersTest.headers_test -->
+    </test> <!-- Verify_headers_data -->
+    <test started-at="2024-04-04T10:59:42 IST" name="Verify_remit_online" finished-at="2024-04-04T11:00:17 IST" duration-ms="35772">
+      <class name="web.tests.Remit_online_test.remit_online_test">
+        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:web.tests.Remit_online_test.remit_online_test@1dac5ef]" started-at="2024-04-04T10:58:03 IST" name="beforeSuiteWorks" finished-at="2024-04-04T10:58:03 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteWorks -->
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.Remit_online_test.remit_online_test@1dac5ef]" started-at="2024-04-04T10:59:42 IST" name="init" finished-at="2024-04-04T10:59:53 IST" duration-ms="11284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verify_remit_online(java.lang.String)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@1dac5ef]" started-at="2024-04-04T10:59:53 IST" name="verify_remit_online" data-provider="get_validation_message" finished-at="2024-04-04T11:00:17 IST" duration-ms="24120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Length of Civil ID should be 12 digits]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step : Click on remit_online_linked_text<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on sign_up_on_remit_online_page<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on civil_id_text_on_remit_online<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 236 at locator civil_id_text_on_remit_online<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on send_otp_button_on_remit_online<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_remit_online -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@1dac5ef]" started-at="2024-04-04T11:00:17 IST" name="tear_down" finished-at="2024-04-04T11:00:17 IST" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_remit_online status=SUCCESS method=remit_online_test.verify_remit_online(java.lang.String)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@1dac5ef] output=Step : Click on remit_online_linked_text<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- web.tests.Remit_online_test.remit_online_test -->
+    </test> <!-- Verify_remit_online -->
+  </suite> <!-- Smoke  -->
+</testng-results>
