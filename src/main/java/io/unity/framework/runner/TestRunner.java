@@ -82,7 +82,7 @@ public class TestRunner {
 
 
             ReportGenerator generator = new ReportGenerator();
-            generator.generateTestNGReportDirectly(xyz.getReportKey(currentConfig), xyz.getCurrentReportDirectory(), "ios", "", "", "");
+            generator.generateTestNGReportDirectly(xyz.getReportKey(currentConfig), xyz.getCurrentReportDirectory(), "web", "", "", "");
 
 
         } catch (Exception e) {

@@ -172,8 +172,6 @@ public class exchange_rate {
 
     public void get_total_exchange_report(){
 
-
-//
         String get_currency_type = get_currency_type();
         System.out.println("Currency type is: "+get_currency_type);
         Reporter.log("Currency type is: "+get_currency_type);
