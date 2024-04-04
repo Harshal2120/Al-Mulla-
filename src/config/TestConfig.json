@@ -11,12 +11,13 @@
         "projectName": "Al_Mulla_POC"
       },
       "env": "https://www.almullaexchange.com/kwt/en_US/",
+      "apiTestConfig": " ",
       "isGrid": false,
       "gridPlatform": "local",
       "testNGsuite": [
         "Al_Mulla.xml"
       ],
-      "tesboReportKey": ""
+      "tesboReportKey": "f4TnlZrApnOd1fAtp9kdnGi5OZB0dQG6"
     },
     "nevvon_prod_admin": {
       "platform": "web",

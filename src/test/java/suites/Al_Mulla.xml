@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Smoke " parallel="tests" thread-count="1">
+<suite name="Al_Mulla_POC" parallel="tests" thread-count="1">
 
     <test name="Verify_currency_exchange_rate">
         <classes>

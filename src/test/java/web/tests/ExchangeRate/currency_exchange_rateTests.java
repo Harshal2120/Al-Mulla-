@@ -34,11 +34,12 @@ public class currency_exchange_rateTests extends base {
 
         exchange_rate.perform_country_selection(destinationCountry);
 
-        exchange_rate.enter_you_send(yourSend.replaceAll("\\..*", ""));
+        exchange_rate.enter_you_send(yourSend);
 
         exchange_rate.perform_you_receive_selection(currencyType);
 
         exchange_rate.get_total_exchange_report();
+
 
     }
 

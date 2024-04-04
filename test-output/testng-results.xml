@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Step : Click on destination_country_dropdown_click<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : clear value from your_send_text_single text fields and enter text 80<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on your_receive_text_currency_type_single<br>]]>
+    </line>
+    <line>
+      <![CDATA[Currency type is: EUR]]>
+    </line>
+    <line>
+      <![CDATA[Current exchange value is:  3.242017 USD]]>
+    </line>
+    <line>
+      <![CDATA[Amount you want to convert: 80]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:red;font-size:15px;">Test Failed</h1>   ]]>
+    </line>
+    <line>
+      <![CDATA[Step : <img src="C:\Users\Harshal\IdeaProjects\Al_Mulla_exchange\src\test\resources\failed_test_screenshot\verify_value_in_currency_exchange_rate_TZbqi.png" alt="test" width="1024" height="640"><br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on destination_country_dropdown_click<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : clear value from your_send_text_single text fields and enter text 110<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on your_receive_text_currency_type_single<br>]]>
+    </line>
+    <line>
+      <![CDATA[Currency type is: USD]]>
+    </line>
+    <line>
+      <![CDATA[Current exchange value is:  153.444837 EGP]]>
+    </line>
+    <line>
+      <![CDATA[Amount you want to convert: 100]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:red;font-size:15px;">Test Failed</h1>   ]]>
+    </line>
+    <line>
+      <![CDATA[Step : <img src="C:\Users\Harshal\IdeaProjects\Al_Mulla_exchange\src\test\resources\failed_test_screenshot\verify_value_in_currency_exchange_rate_p0tGb.png" alt="test" width="1024" height="640"><br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on destination_country_dropdown_click<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : clear value from your_send_text_single text fields and enter text 150<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on your_receive_text_currency_type_single<br>]]>
+    </line>
+    <line>
+      <![CDATA[Currency type is: EUR]]>
+    </line>
+    <line>
+      <![CDATA[Current exchange value is:  270.635995 INR]]>
+    </line>
+    <line>
+      <![CDATA[Amount you want to convert: 100]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:red;font-size:15px;">Test Failed</h1>   ]]>
+    </line>
+    <line>
+      <![CDATA[Step : <img src="C:\Users\Harshal\IdeaProjects\Al_Mulla_exchange\src\test\resources\failed_test_screenshot\verify_value_in_currency_exchange_rate_n616U.png" alt="test" width="1024" height="640"><br>]]>
+    </line>
     <line>
       <![CDATA[Step : Click on about_us_link_text<br>]]>
     </line>
@@ -29,6 +101,9 @@
       <![CDATA[Step : Click on arabic_language_link_text<br>]]>
     </line>
     <line>
+      <![CDATA[Step : Click on about_us_in_english<br>]]>
+    </line>
+    <line>
       <![CDATA[Step : Click on remit_online_linked_text<br>]]>
     </line>
     <line>
@@ -38,22 +113,314 @@
       <![CDATA[Step : Click on civil_id_text_on_remit_online<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Enter text 236 at locator civil_id_text_on_remit_online<br>]]>
+      <![CDATA[Step : Enter text 353747 at locator civil_id_text_on_remit_online<br>]]>
     </line>
     <line>
       <![CDATA[Step : Click on send_otp_button_on_remit_online<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-04-04T10:58:03 IST" name="Smoke " finished-at="2024-04-04T11:00:17 IST" duration-ms="134632">
+  <suite started-at="2024-04-04T14:47:32 IST" name="Al_Mulla_POC" finished-at="2024-04-04T14:53:50 IST" duration-ms="378413">
     <groups>
     </groups>
-    <test started-at="2024-04-04T10:58:03 IST" name="Verify_headers_data" finished-at="2024-04-04T10:59:42 IST" duration-ms="98808">
-      <class name="web.tests.HeadersTest.headers_test">
-        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.HeadersTest.headers_test@74fe5c40]" started-at="2024-04-04T10:58:03 IST" name="init" finished-at="2024-04-04T10:58:14 IST" duration-ms="10843" status="PASS">
+    <test started-at="2024-04-04T14:47:32 IST" name="Verify_currency_exchange_rate" finished-at="2024-04-04T14:51:30 IST" duration-ms="238328">
+      <class name="web.tests.ExchangeRate.currency_exchange_rateTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40]" started-at="2024-04-04T14:47:32 IST" name="init" finished-at="2024-04-04T14:47:44 IST" duration-ms="11402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_data_in_header(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.HeadersTest.headers_test@74fe5c40]" started-at="2024-04-04T10:58:14 IST" name="verify_data_in_header" data-provider="get_texts_link" finished-at="2024-04-04T10:59:41 IST" duration-ms="86908" status="PASS">
+        <test-method signature="verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40]" started-at="2024-04-04T14:47:44 IST" name="verify_value_in_currency_exchange_rate" data-provider="currency_exchange_rate" finished-at="2024-04-04T14:48:50 IST" duration-ms="66545" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KUWAIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "3.242017 USD"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "3.242017 USD"
+at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+at java.base/java.lang.Double.parseDouble(Double.java:651)
+at web.object_repository.ExchangeRate.exchange_rate.get_total_exchange_report(exchange_rate.java:147)
+at web.tests.ExchangeRate.currency_exchange_rateTests.verify_value_in_currency_exchange_rate(currency_exchange_rateTests.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Step : Click on destination_country_dropdown_click<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : clear value from your_send_text_single text fields and enter text 80<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on your_receive_text_currency_type_single<br>]]>
+            </line>
+            <line>
+              <![CDATA[Currency type is: EUR]]>
+            </line>
+            <line>
+              <![CDATA[Current exchange value is:  3.242017 USD]]>
+            </line>
+            <line>
+              <![CDATA[Amount you want to convert: 80]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_value_in_currency_exchange_rate -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40]" started-at="2024-04-04T14:48:50 IST" name="tear_down" finished-at="2024-04-04T14:48:51 IST" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_value_in_currency_exchange_rate status=FAILURE method=currency_exchange_rateTests.verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40] output=Step : Click on destination_country_dropdown_click<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<h1 style="color:red;font-size:15px;">Test Failed</h1>   ]]>
+            </line>
+            <line>
+              <![CDATA[Step : <img src="C:\Users\Harshal\IdeaProjects\Al_Mulla_exchange\src\test\resources\failed_test_screenshot\verify_value_in_currency_exchange_rate_TZbqi.png" alt="test" width="1024" height="640"><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40]" started-at="2024-04-04T14:48:51 IST" name="init" finished-at="2024-04-04T14:49:00 IST" duration-ms="9006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40]" started-at="2024-04-04T14:49:00 IST" name="verify_value_in_currency_exchange_rate" data-provider="currency_exchange_rate" finished-at="2024-04-04T14:50:08 IST" duration-ms="68570" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EGYPT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[110.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "153.444837 EGP"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "153.444837 EGP"
+at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+at java.base/java.lang.Double.parseDouble(Double.java:651)
+at web.object_repository.ExchangeRate.exchange_rate.get_total_exchange_report(exchange_rate.java:147)
+at web.tests.ExchangeRate.currency_exchange_rateTests.verify_value_in_currency_exchange_rate(currency_exchange_rateTests.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Step : Click on destination_country_dropdown_click<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : clear value from your_send_text_single text fields and enter text 110<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on your_receive_text_currency_type_single<br>]]>
+            </line>
+            <line>
+              <![CDATA[Currency type is: USD]]>
+            </line>
+            <line>
+              <![CDATA[Current exchange value is:  153.444837 EGP]]>
+            </line>
+            <line>
+              <![CDATA[Amount you want to convert: 100]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_value_in_currency_exchange_rate -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40]" started-at="2024-04-04T14:50:08 IST" name="tear_down" finished-at="2024-04-04T14:50:09 IST" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_value_in_currency_exchange_rate status=FAILURE method=currency_exchange_rateTests.verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40] output=Step : Click on destination_country_dropdown_click<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<h1 style="color:red;font-size:15px;">Test Failed</h1>   ]]>
+            </line>
+            <line>
+              <![CDATA[Step : <img src="C:\Users\Harshal\IdeaProjects\Al_Mulla_exchange\src\test\resources\failed_test_screenshot\verify_value_in_currency_exchange_rate_p0tGb.png" alt="test" width="1024" height="640"><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40]" started-at="2024-04-04T14:50:09 IST" name="init" finished-at="2024-04-04T14:50:22 IST" duration-ms="13011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40]" started-at="2024-04-04T14:50:22 IST" name="verify_value_in_currency_exchange_rate" data-provider="currency_exchange_rate" finished-at="2024-04-04T14:51:30 IST" duration-ms="68201" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[150.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "270.635995 INR"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "270.635995 INR"
+at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+at java.base/java.lang.Double.parseDouble(Double.java:651)
+at web.object_repository.ExchangeRate.exchange_rate.get_total_exchange_report(exchange_rate.java:147)
+at web.tests.ExchangeRate.currency_exchange_rateTests.verify_value_in_currency_exchange_rate(currency_exchange_rateTests.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Step : Click on destination_country_dropdown_click<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : clear value from your_send_text_single text fields and enter text 150<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on your_receive_text_currency_type_single<br>]]>
+            </line>
+            <line>
+              <![CDATA[Currency type is: EUR]]>
+            </line>
+            <line>
+              <![CDATA[Current exchange value is:  270.635995 INR]]>
+            </line>
+            <line>
+              <![CDATA[Amount you want to convert: 100]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_value_in_currency_exchange_rate -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40]" started-at="2024-04-04T14:51:30 IST" name="tear_down" finished-at="2024-04-04T14:51:30 IST" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_value_in_currency_exchange_rate status=FAILURE method=currency_exchange_rateTests.verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@74fe5c40] output=Step : Click on destination_country_dropdown_click<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<h1 style="color:red;font-size:15px;">Test Failed</h1>   ]]>
+            </line>
+            <line>
+              <![CDATA[Step : <img src="C:\Users\Harshal\IdeaProjects\Al_Mulla_exchange\src\test\resources\failed_test_screenshot\verify_value_in_currency_exchange_rate_n616U.png" alt="test" width="1024" height="640"><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- web.tests.ExchangeRate.currency_exchange_rateTests -->
+    </test> <!-- Verify_currency_exchange_rate -->
+    <test started-at="2024-04-04T14:51:30 IST" name="Verify_headers_data" finished-at="2024-04-04T14:53:17 IST" duration-ms="107078">
+      <class name="web.tests.HeadersTest.headers_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.HeadersTest.headers_test@a1153bc]" started-at="2024-04-04T14:51:30 IST" name="init" finished-at="2024-04-04T14:51:42 IST" duration-ms="12068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verify_data_in_header(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.HeadersTest.headers_test@a1153bc]" started-at="2024-04-04T14:51:42 IST" name="verify_data_in_header" data-provider="get_texts_link" finished-at="2024-04-04T14:53:17 IST" duration-ms="94726" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -129,13 +496,16 @@
             <line>
               <![CDATA[Step : Click on arabic_language_link_text<br>]]>
             </line>
+            <line>
+              <![CDATA[Step : Click on about_us_in_english<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verify_data_in_header -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.HeadersTest.headers_test@74fe5c40]" started-at="2024-04-04T10:59:41 IST" name="tear_down" finished-at="2024-04-04T10:59:42 IST" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.HeadersTest.headers_test@a1153bc]" started-at="2024-04-04T14:53:17 IST" name="tear_down" finished-at="2024-04-04T14:53:17 IST" duration-ms="219" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_data_in_header status=SUCCESS method=headers_test.verify_data_in_header(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.HeadersTest.headers_test@74fe5c40] output=Step : Click on about_us_link_text<br>]]]>
+                <![CDATA[[TestResult name=verify_data_in_header status=SUCCESS method=headers_test.verify_data_in_header(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.HeadersTest.headers_test@a1153bc] output=Step : Click on about_us_link_text<br>]]]>
               </value>
             </param>
           </params>
@@ -144,17 +514,17 @@
         </test-method> <!-- tear_down -->
       </class> <!-- web.tests.HeadersTest.headers_test -->
     </test> <!-- Verify_headers_data -->
-    <test started-at="2024-04-04T10:59:42 IST" name="Verify_remit_online" finished-at="2024-04-04T11:00:17 IST" duration-ms="35772">
+    <test started-at="2024-04-04T14:53:17 IST" name="Verify_remit_online" finished-at="2024-04-04T14:53:50 IST" duration-ms="32942">
       <class name="web.tests.Remit_online_test.remit_online_test">
-        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:web.tests.Remit_online_test.remit_online_test@1dac5ef]" started-at="2024-04-04T10:58:03 IST" name="beforeSuiteWorks" finished-at="2024-04-04T10:58:03 IST" duration-ms="40" status="PASS">
+        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:web.tests.Remit_online_test.remit_online_test@38e79ae3]" started-at="2024-04-04T14:47:32 IST" name="beforeSuiteWorks" finished-at="2024-04-04T14:47:32 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuiteWorks -->
-        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.Remit_online_test.remit_online_test@1dac5ef]" started-at="2024-04-04T10:59:42 IST" name="init" finished-at="2024-04-04T10:59:53 IST" duration-ms="11284" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.Remit_online_test.remit_online_test@38e79ae3]" started-at="2024-04-04T14:53:17 IST" name="init" finished-at="2024-04-04T14:53:30 IST" duration-ms="12115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_remit_online(java.lang.String)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@1dac5ef]" started-at="2024-04-04T10:59:53 IST" name="verify_remit_online" data-provider="get_validation_message" finished-at="2024-04-04T11:00:17 IST" duration-ms="24120" status="PASS">
+        <test-method signature="verify_remit_online(java.lang.String)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@38e79ae3]" started-at="2024-04-04T14:53:30 IST" name="verify_remit_online" data-provider="get_validation_message" finished-at="2024-04-04T14:53:50 IST" duration-ms="20601" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,18 +543,18 @@
               <![CDATA[Step : Click on civil_id_text_on_remit_online<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Enter text 236 at locator civil_id_text_on_remit_online<br>]]>
+              <![CDATA[Step : Enter text 353747 at locator civil_id_text_on_remit_online<br>]]>
             </line>
             <line>
               <![CDATA[Step : Click on send_otp_button_on_remit_online<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_remit_online -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@1dac5ef]" started-at="2024-04-04T11:00:17 IST" name="tear_down" finished-at="2024-04-04T11:00:17 IST" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@38e79ae3]" started-at="2024-04-04T14:53:50 IST" name="tear_down" finished-at="2024-04-04T14:53:50 IST" duration-ms="176" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_remit_online status=SUCCESS method=remit_online_test.verify_remit_online(java.lang.String)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@1dac5ef] output=Step : Click on remit_online_linked_text<br>]]]>
+                <![CDATA[[TestResult name=verify_remit_online status=SUCCESS method=remit_online_test.verify_remit_online(java.lang.String)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@38e79ae3] output=Step : Click on remit_online_linked_text<br>]]]>
               </value>
             </param>
           </params>
@@ -193,5 +563,5 @@
         </test-method> <!-- tear_down -->
       </class> <!-- web.tests.Remit_online_test.remit_online_test -->
     </test> <!-- Verify_remit_online -->
-  </suite> <!-- Smoke  -->
+  </suite> <!-- Al_Mulla_POC -->
 </testng-results>

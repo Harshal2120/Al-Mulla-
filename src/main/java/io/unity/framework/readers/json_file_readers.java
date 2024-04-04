@@ -90,6 +90,9 @@ public class json_file_readers {
     }
 
 
+    public String getReportKey(String configName) {
+        return (String) getConfigObject(configName).get("tesboReportKey");
+    }
     public JSONObject get_capabilities(String configName) {
 
         return getConfigObject(configName).getJSONObject("capabilities");
@@ -141,6 +144,11 @@ public class json_file_readers {
     }
 
 
+    public String getCurrentReportDirectory() {
+        String dir = System.getProperty("user.dir");
+
+        return dir + "/test-output";
+    }
     public String get_final_app_path(String configName) {
 
         String app_path = "";

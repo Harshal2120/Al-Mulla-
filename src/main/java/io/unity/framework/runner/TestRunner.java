@@ -1,6 +1,7 @@
 package io.unity.framework.runner;
 
 import com.beust.jcommander.JCommander;
+import io.tesbo.report.ReportGenerator;
 import io.unity.framework.readers.CommandlineOption;
 import io.unity.framework.readers.json_file_readers;
 import org.json.JSONArray;
@@ -58,8 +59,6 @@ public class TestRunner {
                 }
                 testng.setTestSuites(testFilesList); //you can addd multiple suites either here by adding multiple files or include all suites needed in the testng.xml file
             } else {
-
-
             }
 
         } catch (Exception e) {
@@ -73,8 +72,25 @@ public class TestRunner {
 
         }
 
+        try {
+
+
+            System.out.println("Generating Report");
+
+            json_file_readers xyz = new json_file_readers();
+            String Platform = xyz.getPlatform(currentConfig);
+
+
+            ReportGenerator generator = new ReportGenerator();
+            generator.generateTestNGReportDirectly(xyz.getReportKey(currentConfig), xyz.getCurrentReportDirectory(), "ios", "", "", "");
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
 
 
     }
 
-}

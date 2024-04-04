@@ -9,6 +9,8 @@ import org.testng.Reporter;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class exchange_rate {
 
@@ -36,6 +38,7 @@ public class exchange_rate {
     }
 
     public void enter_you_send(String value) {
+
         wait.wait_until_element_is_clickable("your_send_text_single");
         element.clear_and_enter_in_text_field("your_send_text_single",value);
     }
@@ -61,7 +64,25 @@ public class exchange_rate {
     public String get_conversion_rate_today(){
         wait.wait_for_second(2);
         String str = element.get_element_text("price_calculated_today");
-        return str;
+        String number = extractNumericValue(str);
+        return number;
+    }
+
+    public String extractNumericValue(String text) {
+
+        Pattern pattern = Pattern.compile("\\d+(\\.\\d+)");
+        Matcher matcher = pattern.matcher(text);
+
+        if (matcher.find()) {
+            return matcher.group();
+        }
+        return "";
+    }
+
+    public String get_text() {
+        String ele = element.get_element_text("price_calculated_today");
+        String number = extractNumericValue(ele);
+        return number;
     }
 
     public String get_current_date_and_time(){
@@ -128,14 +149,38 @@ public class exchange_rate {
         }
     }
 
+
+    public int final_exchange_value(String value, String amount) {
+
+        double doubleValue = Double.parseDouble(value);
+        double doubleAmount = Double.parseDouble(amount);
+        double finalValue = doubleValue * doubleAmount;
+        System.out.println(finalValue);
+        double decimal = finalValue - (int) finalValue;
+
+        int roundedNumber;
+        if (decimal >= 0.5) {
+            roundedNumber = (int) finalValue + 1;
+        } else {
+            roundedNumber = (int) finalValue;
+        }
+        System.out.println("Current exchange value is:"+ roundedNumber);
+        Reporter.log("Current exchange value is: "+ roundedNumber);
+        return roundedNumber;
+    }
+
+
     public void get_total_exchange_report(){
 
+
+//
         String get_currency_type = get_currency_type();
         System.out.println("Currency type is: "+get_currency_type);
         Reporter.log("Currency type is: "+get_currency_type);
 
+
         String today_exchange_value = get_conversion_rate_today();
-        String total_value_changed = today_exchange_value.replaceFirst(".*=", "").replace(get_currency_type,"");
+        String total_value_changed = today_exchange_value;
         System.out.println("Current exchange value is: "+total_value_changed);
         Reporter.log("Current exchange value is: "+total_value_changed);
 
