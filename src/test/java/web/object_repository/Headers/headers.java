@@ -25,52 +25,52 @@ public class headers {
     public void click_and_verify_about_us_link(String text_to_enter, String About_us) {
         driver.manage().window().maximize();
         wait.wait_for_second(2);
-        element.click("about_us_link_text");
+        element.click("about_us_header");
         wait.wait_for_second(3);
         Assert.assertEquals(driver.getCurrentUrl(), About_us);
         wait.wait_for_second(3);
-        Assert.assertEquals(element.get_element_text("about_uS_text_when_clicked_on_about_us"), text_to_enter);
+        Assert.assertEquals(element.get_element_text("about_us_text"), text_to_enter);
     }
 
     public void click_and_verify_services_link(String text_to_enter, String Services) {
         wait.wait_for_second(2);
-        element.click("services_link_text");
+        element.click("services_header");
         wait.wait_for_second(3);
         Assert.assertEquals(driver.getCurrentUrl(), Services);
         wait.wait_for_second(3);
-        Assert.assertEquals(element.get_element_text("why_al_mulla_Exchange_text_when_clicked_on_services"), text_to_enter);
+        Assert.assertEquals(element.get_element_text("services_text"), text_to_enter);
     }
 
     public void click_and_verify_branches_link(String text_to_enter, String Branches) {
         wait.wait_for_second(2);
-        element.click("branches_link_text");
+        element.click("branches_header");
         wait.wait_for_second(3);
         Assert.assertEquals(driver.getCurrentUrl(), Branches);
         wait.wait_for_second(3);
-        Assert.assertEquals(element.get_element_text("locations_text_when_clicked_on_branches"), text_to_enter);
+        Assert.assertEquals(element.get_element_text("branches_location_text"), text_to_enter);
     }
 
     public void click_and_verify_promotions_link(String text_to_enter, String Promotions) {
         wait.wait_for_second(2);
-        element.click("promotions_link_text");
+        element.click("promotions_header");
         wait.wait_for_second(3);
         Assert.assertEquals(driver.getCurrentUrl(), Promotions);
         wait.wait_for_second(3);
-        Assert.assertEquals(element.get_element_text("promotions_text_when_clicked_on_promotions"), text_to_enter);
+        Assert.assertEquals(element.get_element_text("promotions_offers_text"), text_to_enter);
     }
 
     public void click_and_verify_contact_us_link(String text_to_enter, String Contact) {
         wait.wait_for_second(2);
-        element.click("contact_link_text");
+        element.click("contact_header");
         wait.wait_for_second(3);
         Assert.assertEquals(driver.getCurrentUrl(), Contact);
         wait.wait_for_second(3);
-        Assert.assertEquals(element.get_element_text("contact_text_when_clicked_on_contact"), text_to_enter);
+        Assert.assertEquals(element.get_element_text("contact_header_text"), text_to_enter);
     }
 
     public void click_and_verify_remit_online_link(String text_to_enter, String Remit_online) {
         wait.wait_for_second(2);
-        element.click("remit_online_link_text");
+        element.click("remit_online_header");
         wait.wait_for_second(3);
         String First_window = driver.getWindowHandle();
         Set<String> allwindowids = driver.getWindowHandles();
@@ -82,26 +82,26 @@ public class headers {
         String link = "https://app-kwt.almullaexchange.com/login";
         Assert.assertEquals(link, Remit_online);
         wait.wait_for_second(3);
-        Assert.assertEquals(element.get_element_text("login_text_when_clicked_on_remit_online"), text_to_enter);
+        Assert.assertEquals(element.get_element_text("remit_online_sign_up_text"), text_to_enter);
         wait.wait_for_second(2);
         driver.switchTo().window(First_window);
     }
 
     public void click_and_verify_news_link(String text_to_enter, String News) {
         wait.wait_for_second(2);
-        element.click("news_link_text");
+        element.click("news_header");
         wait.wait_for_second(3);
         Assert.assertEquals(driver.getCurrentUrl(), News);
         wait.wait_for_second(3);
-        Assert.assertEquals(element.get_element_text("news_text_when_clicked_on_news"), text_to_enter);
+        Assert.assertEquals(element.get_element_text("news_header_text"), text_to_enter);
     }
 
     public void click_and_verify_faq_link(String text_to_enter, String FAQS) {
         wait.wait_for_second(2);
-        element.click("faq_link_text");
+        element.click("faq_header");
         wait.wait_for_second(3);
         Assert.assertEquals(driver.getCurrentUrl(), FAQS);
-        Assert.assertEquals(element.get_element_text("how_can_we_help_you_when_clicked_on_faq"), text_to_enter);
+        Assert.assertEquals(element.get_element_text("faq_text"), text_to_enter);
     }
 
     public void click_and_verify_arabic_link(String about_us_header_in_arabic, String about_us_text_in_arabic, String Arabic) {
@@ -110,10 +110,66 @@ public class headers {
         wait.wait_for_second(5);
         Assert.assertEquals(driver.getCurrentUrl(), Arabic);
         wait.wait_for_second(3);
-        Assert.assertEquals(element.get_element_text("about_us_in_english"), about_us_header_in_arabic);
-        element.click("about_us_in_english");
+        Assert.assertEquals(element.get_element_text("about_us_header"), about_us_header_in_arabic);
+        element.click("about_us_header");
         wait.wait_for_second(2);
-        Assert.assertEquals(element.get_element_text("about_us_text_in_english"),about_us_text_in_arabic );
+        Assert.assertEquals(element.get_element_text("about_us_text"),about_us_text_in_arabic );
     }
+
+    public void click_and_verify_company_overview_header_in_arabic(String company_overview_header_text, String company_overview_text_in_arabic){
+        wait.wait_for_second(2);
+        Assert.assertEquals(element.get_element_text("about_us_header"),company_overview_header_text);
+        element.click("about_us_header");
+        wait.wait_for_second(3);
+        Assert.assertEquals(element.get_element_text("about_us_text"), company_overview_text_in_arabic);
+    }
+    public void click_and_verify_services_header_in_arabic(String services_header_text, String services_text) {
+        wait.wait_for_second(2);
+        Assert.assertEquals(element.get_element_text("services_header"),services_header_text);
+        element.click("services_header");
+        wait.wait_for_second(3);
+        Assert.assertEquals(element.get_element_text("services_text"), services_text);
+    }
+    public void click_and_verify_branches_header_in_arabic (String branches_header_text, String branches_location_text) {
+        wait.wait_for_second(2);
+        Assert.assertEquals(element.get_element_text("branches_header"),branches_header_text);
+        element.click("branches_header");
+        wait.wait_for_second(3);
+        Assert.assertEquals(element.get_element_text("branches_location_text"), branches_location_text);
+    }
+     public void click_and_verify_promotions_header_in_arabic (String promotions_header_text, String promotions_offers_text) {
+        wait.wait_for_second(2);
+        Assert.assertEquals(element.get_element_text("promotions_header"),promotions_header_text);
+        element.click("promotions_header");
+        wait.wait_for_second(3);
+        Assert.assertEquals(element.get_element_text("promotions_offers_text"), promotions_offers_text);
+    }
+    public void click_and_verify_contact_header_in_arabic (String contact_header_text, String contact_text) {
+        wait.wait_for_second(2);
+        Assert.assertEquals(element.get_element_text("contact_header"),contact_header_text);
+        element.click("contact_header");
+        wait.wait_for_second(3);
+        Assert.assertEquals(element.get_element_text("contact_header_text"), contact_text);
+    }
+   public void click_and_verify_news_header_in_arabic (String news_header_text, String news_text) {
+        wait.wait_for_second(2);
+        Assert.assertEquals(element.get_element_text("news_header"),news_header_text);
+        element.click("news_header");
+        wait.wait_for_second(3);
+        Assert.assertEquals(element.get_element_text("news_header_text"), news_text);
+    }
+    public void click_and_verify_faqs_header_in_arabic (String faq_header_text, String faq_text) {
+        wait.wait_for_second(2);
+        Assert.assertEquals(element.get_element_text("faq_header"),faq_header_text);
+        element.click("faq_header");
+        wait.wait_for_second(3);
+        Assert.assertEquals(element.get_element_text("faq_text"), faq_text);
+    }
+
+
+
+
+
+
 }
 

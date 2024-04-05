@@ -24,17 +24,17 @@
     "web_locator": "//h2[contains(text(),'Why Al Mulla Exchange?')]"
   },
   "branches_link_text": {
-  "platform": "web",
-  "element_type": "dropdown",
-  "locator_type": "xpath",
-  "web_locator": "//a[contains(text(),'Branches')]"
-},
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//a[contains(text(),'Branches')]"
+  },
   "locations_text_when_clicked_on_branches": {
-  "platform": "web",
-  "element_type": "dropdown",
-  "locator_type": "xpath",
-  "web_locator": "//h2[contains(text(),'Locations')]"
-},
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//h2[contains(text(),'Locations')]"
+  },
   "promotions_link_text": {
     "platform": "web",
     "element_type": "dropdown",
@@ -60,11 +60,11 @@
     "web_locator": "//h2[contains(text(),'Contact')]"
   },
   "remit_online_link_text": {
-  "platform": "web",
-  "element_type": "dropdown",
-  "locator_type": "xpath",
-  "web_locator": "//a[@id='REMIT_ONLINE']"
-},
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//a[@id='REMIT_ONLINE']"
+  },
   "login_text_when_clicked_on_remit_online": {
     "platform": "web",
     "element_type": "dropdown",
@@ -107,17 +107,106 @@
     "locator_type": "xpath",
     "web_locator": "//a[contains(text(),'نبذة عن الشركة')]"
   },
-  "about_us_in_english": {
+  "about_us_header": {
     "platform": "web",
     "element_type": "dropdown",
     "locator_type": "xpath",
     "web_locator": "//ul[@class='nav navbar-nav']//a[contains(@href,'about-us')]"
   },
-  "about_us_text_in_english": {
+  "about_us_text": {
     "platform": "web",
     "element_type": "dropdown",
     "locator_type": "xpath",
-    "web_locator": "//section[@id='about-us']//h2"
+    "web_locator": "(//section[@id='about-us']//h2)[1]"
+  },
+  "services_header": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//ul[@class='nav navbar-nav']//a[contains(@href,'services')]"
+  },
+  "services_text": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "(//section[@id='services']//h2)[1]"
+  },
+  "branches_header": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//ul[@class='nav navbar-nav']//a[contains(@href,'branches')]"
+  },
+  "branches_location_text": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "(//section[@id='branches']//h2)"
+  },
+  "promotions_header": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//ul[@class='nav navbar-nav']//a[contains(@href,'promotions2')]"
+  },
+  "promotions_offers_text": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "(//section[@id='promotions2']//h2)"
+  },
+  "contact_header": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//ul[@class='nav navbar-nav']//a[contains(@href,'contacts')]"
+  },
+  "contact_header_text": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "(//section[@id='contacts']//h2)[1]"
+  },
+  "remit_online_header": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//ul[@class='nav navbar-nav']//a[contains(@href,'login')]"
+  },
+  "remit_online_language_change_to_arabic": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='language-option']//div[contains(.,'العربية')]"
+  },
+  "remit_online_sign_up_text": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='bottom-button-wrapper']//button[2]"
+  },
+  "news_header": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//ul[@class='nav navbar-nav']//a[contains(@href,'news')]"
+  },
+  "news_header_text": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "(//section[@id='intro']//h1)"
+  },
+  "faq_header": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "//ul[@class='nav navbar-nav']//a[contains(@href,'faq')]"
+  },
+  "faq_text": {
+    "platform": "web",
+    "element_type": "dropdown",
+    "locator_type": "xpath",
+    "web_locator": "(//section[@id='faq']//h2)"
   }
-
 }
