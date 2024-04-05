@@ -1,36 +1,6 @@
-2024-04-05 13:02:07 [main] io.unity.framework.init.base.init()
+2024-04-05 14:37:54 [main] io.unity.framework.init.base.init()
 INFO: Base config to run : Al_Mulla
-2024-04-05 13:02:21 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on about_us_header
-2024-04-05 13:02:29 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on services_header
-2024-04-05 13:02:37 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on branches_header
-2024-04-05 13:02:46 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on promotions_header
-2024-04-05 13:02:54 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on contact_header
-2024-04-05 13:03:02 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on remit_online_header
-2024-04-05 13:03:13 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on news_header
-2024-04-05 13:03:25 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on faq_header
-2024-04-05 13:03:36 [main] io.unity.performaction.autoweb.testng_logs.test_step()
+2024-04-05 14:38:18 [main] io.unity.performaction.autoweb.testng_logs.test_step()
 INFO: Step : Click on arabic_language_link_text
-2024-04-05 13:03:50 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on about_us_header
-2024-04-05 13:03:54 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on about_us_header
-2024-04-05 13:04:00 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on services_header
-2024-04-05 13:04:05 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on branches_header
-2024-04-05 13:04:10 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on promotions_header
-2024-04-05 13:04:15 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on contact_header
-2024-04-05 13:04:20 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on news_header
-2024-04-05 13:04:31 [main] io.unity.performaction.autoweb.testng_logs.test_step()
-INFO: Step : Click on faq_header
+2024-04-05 14:38:35 [main] io.unity.performaction.autoweb.testng_logs.test_step()
+INFO: Step : Click on remit_online_header
