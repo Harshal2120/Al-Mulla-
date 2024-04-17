@@ -112,9 +112,9 @@ public class headers {
         Assert.assertEquals(element.get_element_text("faq_text"), faqs_text);
     }
 
-    public void click_and_verify_arabic_link(String arabic_language_header_test, String about_us_header_in_arabic, String about_us_text_in_arabic, String Arabic) {
+    public void click_and_verify_arabic_link(String arabic_language_header_text, String about_us_header_in_arabic, String about_us_text_in_arabic, String Arabic) {
         wait.wait_for_second(2);
-        Assert.assertEquals(element.get_element_text("arabic_language_header"), arabic_language_header_test);
+        Assert.assertEquals(element.get_element_text("arabic_language_header"), arabic_language_header_text);
         element.click("arabic_language_header");
         wait.wait_for_second(5);
         Assert.assertEquals(driver.getCurrentUrl(), Arabic);
@@ -162,8 +162,8 @@ public class headers {
     }
 
     public void click_and_verify_remit_online_header_in_arabic(String transfer_online_header_text,String create_new_account_text ) {
-        wait.wait_for_second(2);
-        element.click("arabic_language_link_text");
+//        wait.wait_for_second(2);
+//        element.click("arabic_language_header");
         wait.wait_for_second(2);
         Assert.assertEquals(element.get_element_text("remit_online_header"),transfer_online_header_text);
         element.click("remit_online_header");

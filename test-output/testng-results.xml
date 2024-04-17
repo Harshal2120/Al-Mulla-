@@ -14,16 +14,16 @@
       <![CDATA[Currency type is: EUR]]>
     </line>
     <line>
-      <![CDATA[Current exchange value is: 2.960332]]>
+      <![CDATA[Current exchange value is: 2.957267]]>
     </line>
     <line>
-      <![CDATA[Amount you want to convert: 80]]>
+      <![CDATA[Amount you want to convert: 100]]>
     </line>
     <line>
-      <![CDATA[Exchange value is: 237]]>
+      <![CDATA[Exchange value is: 296]]>
     </line>
     <line>
-      <![CDATA[Current date of exchange is: 09-Apr 11:00 AM Delivery]]>
+      <![CDATA[Current date of exchange is: 16-Apr 11:00 AM Delivery]]>
     </line>
     <line>
       <![CDATA[Total fee to be deducted is: Fees = 7  KWD]]>
@@ -41,16 +41,16 @@
       <![CDATA[Currency type is: USD]]>
     </line>
     <line>
-      <![CDATA[Current exchange value is: 3.245594]]>
+      <![CDATA[Current exchange value is: 3.247913]]>
     </line>
     <line>
-      <![CDATA[Amount you want to convert: 100]]>
+      <![CDATA[Amount you want to convert: 110]]>
     </line>
     <line>
-      <![CDATA[Exchange value is: 325]]>
+      <![CDATA[Exchange value is: 357]]>
     </line>
     <line>
-      <![CDATA[Current date of exchange is: 07-Apr 02:00 PM Delivery]]>
+      <![CDATA[Current date of exchange is: 14-Apr 02:00 PM Delivery]]>
     </line>
     <line>
       <![CDATA[Total fee to be deducted is: Fees = 1.75  KWD]]>
@@ -68,49 +68,73 @@
       <![CDATA[Currency type is: EUR]]>
     </line>
     <line>
-      <![CDATA[Current exchange value is: 2.960332]]>
+      <![CDATA[Current exchange value is: 2.957267]]>
     </line>
     <line>
-      <![CDATA[Amount you want to convert: 134]]>
+      <![CDATA[Amount you want to convert: 100]]>
     </line>
     <line>
-      <![CDATA[Exchange value is: 397]]>
+      <![CDATA[Exchange value is: 296]]>
     </line>
     <line>
-      <![CDATA[Current date of exchange is: 10-Apr 05:30 AM Delivery]]>
+      <![CDATA[Current date of exchange is: 16-Apr 11:00 AM Delivery]]>
     </line>
     <line>
       <![CDATA[Total fee to be deducted is: Fees = 7  KWD]]>
     </line>
     <line>
-      <![CDATA[Step : Click on about_us_link_text<br>]]>
+      <![CDATA[Step : Click on about_us_header<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Click on services_link_text<br>]]>
+      <![CDATA[Step : Click on services_header<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Click on branches_link_text<br>]]>
+      <![CDATA[Step : Click on branches_header<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Click on promotions_link_text<br>]]>
+      <![CDATA[Step : Click on promotions_header<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Click on contact_link_text<br>]]>
+      <![CDATA[Step : Click on contact_header<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Click on remit_online_link_text<br>]]>
+      <![CDATA[Step : Click on remit_online_header<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Click on news_link_text<br>]]>
+      <![CDATA[Step : Click on news_header<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Click on faq_link_text<br>]]>
+      <![CDATA[Step : Click on faq_header<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Click on arabic_language_link_text<br>]]>
+      <![CDATA[Step : Click on arabic_language_header<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Click on about_us_in_english<br>]]>
+      <![CDATA[Step : Click on about_us_header<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on about_us_header<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on services_header<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on branches_header<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on promotions_header<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on contact_header<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on remit_online_header<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on news_header<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on faq_header<br>]]>
     </line>
     <line>
       <![CDATA[Step : Click on remit_online_linked_text<br>]]>
@@ -128,16 +152,16 @@
       <![CDATA[Step : Click on send_otp_button_on_remit_online<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-04-04T18:33:48 IST" name="Al_Mulla_POC" finished-at="2024-04-04T18:40:37 IST" duration-ms="408780">
+  <suite started-at="2024-04-10T17:46:38 IST" name="Al_Mulla_POC" finished-at="2024-04-10T17:53:45 IST" duration-ms="426484">
     <groups>
     </groups>
-    <test started-at="2024-04-04T18:33:48 IST" name="Verify_currency_exchange_rate" finished-at="2024-04-04T18:37:58 IST" duration-ms="250456">
+    <test started-at="2024-04-10T17:46:38 IST" name="Verify_currency_exchange_rate" finished-at="2024-04-10T17:50:37 IST" duration-ms="238242">
       <class name="web.tests.ExchangeRate.currency_exchange_rateTests">
-        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c]" started-at="2024-04-04T18:33:50 IST" name="init" finished-at="2024-04-04T18:34:06 IST" duration-ms="16655" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b]" started-at="2024-04-10T17:46:40 IST" name="init" finished-at="2024-04-10T17:46:53 IST" duration-ms="13019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c]" started-at="2024-04-04T18:34:06 IST" name="verify_value_in_currency_exchange_rate" data-provider="currency_exchange_rate" finished-at="2024-04-04T18:35:14 IST" duration-ms="67504" status="PASS">
+        <test-method signature="verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b]" started-at="2024-04-10T17:46:53 IST" name="verify_value_in_currency_exchange_rate" data-provider="currency_exchange_rate" finished-at="2024-04-10T17:48:01 IST" duration-ms="68692" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -169,38 +193,38 @@
               <![CDATA[Currency type is: EUR]]>
             </line>
             <line>
-              <![CDATA[Current exchange value is: 2.960332]]>
+              <![CDATA[Current exchange value is: 2.957267]]>
             </line>
             <line>
-              <![CDATA[Amount you want to convert: 80]]>
+              <![CDATA[Amount you want to convert: 100]]>
             </line>
             <line>
-              <![CDATA[Exchange value is: 237]]>
+              <![CDATA[Exchange value is: 296]]>
             </line>
             <line>
-              <![CDATA[Current date of exchange is: 09-Apr 11:00 AM Delivery]]>
+              <![CDATA[Current date of exchange is: 16-Apr 11:00 AM Delivery]]>
             </line>
             <line>
               <![CDATA[Total fee to be deducted is: Fees = 7  KWD]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_value_in_currency_exchange_rate -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c]" started-at="2024-04-04T18:35:14 IST" name="tear_down" finished-at="2024-04-04T18:35:14 IST" duration-ms="611" status="PASS">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b]" started-at="2024-04-10T17:48:01 IST" name="tear_down" finished-at="2024-04-10T17:48:02 IST" duration-ms="870" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_value_in_currency_exchange_rate status=SUCCESS method=currency_exchange_rateTests.verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c] output=Step : Click on destination_country_dropdown_click<br>]]]>
+                <![CDATA[[TestResult name=verify_value_in_currency_exchange_rate status=SUCCESS method=currency_exchange_rateTests.verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b] output=Step : Click on destination_country_dropdown_click<br>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c]" started-at="2024-04-04T18:35:14 IST" name="init" finished-at="2024-04-04T18:35:27 IST" duration-ms="12815" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b]" started-at="2024-04-10T17:48:02 IST" name="init" finished-at="2024-04-10T17:48:11 IST" duration-ms="8761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c]" started-at="2024-04-04T18:35:27 IST" name="verify_value_in_currency_exchange_rate" data-provider="currency_exchange_rate" finished-at="2024-04-04T18:36:34 IST" duration-ms="66826" status="PASS">
+        <test-method signature="verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b]" started-at="2024-04-10T17:48:11 IST" name="verify_value_in_currency_exchange_rate" data-provider="currency_exchange_rate" finished-at="2024-04-10T17:49:19 IST" duration-ms="67611" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -232,38 +256,38 @@
               <![CDATA[Currency type is: USD]]>
             </line>
             <line>
-              <![CDATA[Current exchange value is: 3.245594]]>
+              <![CDATA[Current exchange value is: 3.247913]]>
             </line>
             <line>
-              <![CDATA[Amount you want to convert: 100]]>
+              <![CDATA[Amount you want to convert: 110]]>
             </line>
             <line>
-              <![CDATA[Exchange value is: 325]]>
+              <![CDATA[Exchange value is: 357]]>
             </line>
             <line>
-              <![CDATA[Current date of exchange is: 07-Apr 02:00 PM Delivery]]>
+              <![CDATA[Current date of exchange is: 14-Apr 02:00 PM Delivery]]>
             </line>
             <line>
               <![CDATA[Total fee to be deducted is: Fees = 1.75  KWD]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_value_in_currency_exchange_rate -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c]" started-at="2024-04-04T18:36:34 IST" name="tear_down" finished-at="2024-04-04T18:36:35 IST" duration-ms="584" status="PASS">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b]" started-at="2024-04-10T17:49:19 IST" name="tear_down" finished-at="2024-04-10T17:49:21 IST" duration-ms="2470" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_value_in_currency_exchange_rate status=SUCCESS method=currency_exchange_rateTests.verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c] output=Step : Click on destination_country_dropdown_click<br>]]]>
+                <![CDATA[[TestResult name=verify_value_in_currency_exchange_rate status=SUCCESS method=currency_exchange_rateTests.verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b] output=Step : Click on destination_country_dropdown_click<br>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c]" started-at="2024-04-04T18:36:35 IST" name="init" finished-at="2024-04-04T18:36:50 IST" duration-ms="15917" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b]" started-at="2024-04-10T17:49:21 IST" name="init" finished-at="2024-04-10T17:49:29 IST" duration-ms="8248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c]" started-at="2024-04-04T18:36:50 IST" name="verify_value_in_currency_exchange_rate" data-provider="currency_exchange_rate" finished-at="2024-04-04T18:37:58 IST" duration-ms="67052" status="PASS">
+        <test-method signature="verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b]" started-at="2024-04-10T17:49:29 IST" name="verify_value_in_currency_exchange_rate" data-provider="currency_exchange_rate" finished-at="2024-04-10T17:50:36 IST" duration-ms="66968" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -295,27 +319,27 @@
               <![CDATA[Currency type is: EUR]]>
             </line>
             <line>
-              <![CDATA[Current exchange value is: 2.960332]]>
+              <![CDATA[Current exchange value is: 2.957267]]>
             </line>
             <line>
-              <![CDATA[Amount you want to convert: 134]]>
+              <![CDATA[Amount you want to convert: 100]]>
             </line>
             <line>
-              <![CDATA[Exchange value is: 397]]>
+              <![CDATA[Exchange value is: 296]]>
             </line>
             <line>
-              <![CDATA[Current date of exchange is: 10-Apr 05:30 AM Delivery]]>
+              <![CDATA[Current date of exchange is: 16-Apr 11:00 AM Delivery]]>
             </line>
             <line>
               <![CDATA[Total fee to be deducted is: Fees = 7  KWD]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_value_in_currency_exchange_rate -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c]" started-at="2024-04-04T18:37:58 IST" name="tear_down" finished-at="2024-04-04T18:37:58 IST" duration-ms="787" status="PASS">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b]" started-at="2024-04-10T17:50:36 IST" name="tear_down" finished-at="2024-04-10T17:50:37 IST" duration-ms="326" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_value_in_currency_exchange_rate status=SUCCESS method=currency_exchange_rateTests.verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@8f4ea7c] output=Step : Click on destination_country_dropdown_click<br>]]]>
+                <![CDATA[[TestResult name=verify_value_in_currency_exchange_rate status=SUCCESS method=currency_exchange_rateTests.verify_value_in_currency_exchange_rate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.ExchangeRate.currency_exchange_rateTests@2f7298b] output=Step : Click on destination_country_dropdown_click<br>]]]>
               </value>
             </param>
           </params>
@@ -324,13 +348,13 @@
         </test-method> <!-- tear_down -->
       </class> <!-- web.tests.ExchangeRate.currency_exchange_rateTests -->
     </test> <!-- Verify_currency_exchange_rate -->
-    <test started-at="2024-04-04T18:37:58 IST" name="Verify_headers_data" finished-at="2024-04-04T18:39:58 IST" duration-ms="119204">
+    <test started-at="2024-04-10T17:50:37 IST" name="Verify_headers_data" finished-at="2024-04-10T17:53:15 IST" duration-ms="157795">
       <class name="web.tests.HeadersTest.headers_test">
-        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.HeadersTest.headers_test@48f2bd5b]" started-at="2024-04-04T18:37:59 IST" name="init" finished-at="2024-04-04T18:38:13 IST" duration-ms="14340" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.HeadersTest.headers_test@4fb61f4a]" started-at="2024-04-10T17:50:37 IST" name="init" finished-at="2024-04-10T17:50:45 IST" duration-ms="8298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_data_in_header(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.HeadersTest.headers_test@48f2bd5b]" started-at="2024-04-04T18:38:13 IST" name="verify_data_in_header" data-provider="get_texts_link" finished-at="2024-04-04T18:39:57 IST" duration-ms="103463" status="PASS">
+        <test-method signature="verify_data_in_header(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.HeadersTest.headers_test@4fb61f4a]" started-at="2024-04-10T17:50:45 IST" name="verify_data_in_header" data-provider="get_texts_link" finished-at="2024-04-10T17:53:14 IST" duration-ms="148746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -380,42 +404,66 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Step : Click on about_us_link_text<br>]]>
+              <![CDATA[Step : Click on about_us_header<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Click on services_link_text<br>]]>
+              <![CDATA[Step : Click on services_header<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Click on branches_link_text<br>]]>
+              <![CDATA[Step : Click on branches_header<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Click on promotions_link_text<br>]]>
+              <![CDATA[Step : Click on promotions_header<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Click on contact_link_text<br>]]>
+              <![CDATA[Step : Click on contact_header<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Click on remit_online_link_text<br>]]>
+              <![CDATA[Step : Click on remit_online_header<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Click on news_link_text<br>]]>
+              <![CDATA[Step : Click on news_header<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Click on faq_link_text<br>]]>
+              <![CDATA[Step : Click on faq_header<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Click on arabic_language_link_text<br>]]>
+              <![CDATA[Step : Click on arabic_language_header<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Click on about_us_in_english<br>]]>
+              <![CDATA[Step : Click on about_us_header<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on about_us_header<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on services_header<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on branches_header<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on promotions_header<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on contact_header<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on remit_online_header<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on news_header<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on faq_header<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_data_in_header -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.HeadersTest.headers_test@48f2bd5b]" started-at="2024-04-04T18:39:57 IST" name="tear_down" finished-at="2024-04-04T18:39:58 IST" duration-ms="1149" status="PASS">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.HeadersTest.headers_test@4fb61f4a]" started-at="2024-04-10T17:53:14 IST" name="tear_down" finished-at="2024-04-10T17:53:15 IST" duration-ms="601" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_data_in_header status=SUCCESS method=headers_test.verify_data_in_header(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.HeadersTest.headers_test@48f2bd5b] output=Step : Click on about_us_link_text<br>]]]>
+                <![CDATA[[TestResult name=verify_data_in_header status=SUCCESS method=headers_test.verify_data_in_header(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:web.tests.HeadersTest.headers_test@4fb61f4a] output=Step : Click on about_us_header<br>]]]>
               </value>
             </param>
           </params>
@@ -424,17 +472,17 @@
         </test-method> <!-- tear_down -->
       </class> <!-- web.tests.HeadersTest.headers_test -->
     </test> <!-- Verify_headers_data -->
-    <test started-at="2024-04-04T18:39:58 IST" name="Verify_remit_online" finished-at="2024-04-04T18:40:37 IST" duration-ms="38997">
+    <test started-at="2024-04-10T17:53:15 IST" name="Verify_remit_online" finished-at="2024-04-10T17:53:45 IST" duration-ms="30289">
       <class name="web.tests.Remit_online_test.remit_online_test">
-        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:web.tests.Remit_online_test.remit_online_test@58ea606c]" started-at="2024-04-04T18:33:48 IST" name="beforeSuiteWorks" finished-at="2024-04-04T18:33:48 IST" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:web.tests.Remit_online_test.remit_online_test@fbd1f6]" started-at="2024-04-10T17:46:38 IST" name="beforeSuiteWorks" finished-at="2024-04-10T17:46:38 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuiteWorks -->
-        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.Remit_online_test.remit_online_test@58ea606c]" started-at="2024-04-04T18:39:58 IST" name="init" finished-at="2024-04-04T18:40:15 IST" duration-ms="17503" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.Remit_online_test.remit_online_test@fbd1f6]" started-at="2024-04-10T17:53:15 IST" name="init" finished-at="2024-04-10T17:53:23 IST" duration-ms="8670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_remit_online(java.lang.String)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@58ea606c]" started-at="2024-04-04T18:40:15 IST" name="verify_remit_online" data-provider="get_validation_message" finished-at="2024-04-04T18:40:36 IST" duration-ms="20855" status="PASS">
+        <test-method signature="verify_remit_online(java.lang.String)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@fbd1f6]" started-at="2024-04-10T17:53:23 IST" name="verify_remit_online" data-provider="get_validation_message" finished-at="2024-04-10T17:53:45 IST" duration-ms="21104" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -460,11 +508,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_remit_online -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@58ea606c]" started-at="2024-04-04T18:40:36 IST" name="tear_down" finished-at="2024-04-04T18:40:37 IST" duration-ms="467" status="PASS">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@fbd1f6]" started-at="2024-04-10T17:53:45 IST" name="tear_down" finished-at="2024-04-10T17:53:45 IST" duration-ms="426" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_remit_online status=SUCCESS method=remit_online_test.verify_remit_online(java.lang.String)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@58ea606c] output=Step : Click on remit_online_linked_text<br>]]]>
+                <![CDATA[[TestResult name=verify_remit_online status=SUCCESS method=remit_online_test.verify_remit_online(java.lang.String)[pri:0, instance:web.tests.Remit_online_test.remit_online_test@fbd1f6] output=Step : Click on remit_online_linked_text<br>]]]>
               </value>
             </param>
           </params>
