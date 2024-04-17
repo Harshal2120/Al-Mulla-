@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Al_Mulla" parallel="tests" thread-count="1">
+
+    <test name="Verify_currency_exchange_rate">
+        <classes>
+            <class name="web.tests.ExchangeRate.currency_exchange_rateTests">
+                <methods>
+                    <include name="verify_value_in_currency_exchange_rate"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

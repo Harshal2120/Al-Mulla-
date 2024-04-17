@@ -2,6 +2,23 @@
   "run": "Al_Mulla",
 
   "config": {
+    "Al_Mulla_admin_service": {
+      "platform": "web",
+      "browser": "Chrome",
+      "capabilities": {
+        "browserName": "Chrome",
+        "browserVersion": "latest",
+        "projectName": "Al_Mulla_POC"
+      },
+      "env": "https://appb-kwt.almullaexchange.com/branch/sso/auth/login/REQUIRED?x-tranx-id=AGT-8yQZV-8yQZVdhmsUH-000000-xxx-8yQZVdidgiV&x-client-type=",
+      "apiTestConfig": " ",
+      "isGrid": false,
+      "gridPlatform": "local",
+      "testNGsuite": [
+        "Al_Mulla_Admin_service.xml"
+      ],
+      "tesboReportKey": "mjPJErVKf5iMJ4xLevL1qLBkoGHyKhet"
+    },
     "Al_Mulla": {
       "platform": "web",
       "browser": "Chrome",
