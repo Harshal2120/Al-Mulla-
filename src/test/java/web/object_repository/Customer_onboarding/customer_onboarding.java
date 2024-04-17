@@ -17,9 +17,12 @@ public class customer_onboarding {
         element = new Element(driver);
         verify = new Verify(driver);
         wait = new Wait(driver);
+        driver.manage().window().maximize();
+
     }
 
     public void enter_ec_number(String EC_Number) {
+
         verify.check_element_is_present("admin_page_ecnumber_text_box");
         element.click("admin_page_ecnumber_text_box");
         wait.wait_for_second(2);
