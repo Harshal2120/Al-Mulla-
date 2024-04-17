@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Al_Mulla" parallel="tests" thread-count="1">
 
-    <test name="Verify_currency_exchange_rate">
+    <test name="Customer onboarding test">
         <classes>
-            <class name="web.tests.ExchangeRate.currency_exchange_rateTests">
+            <class name="web.tests.Customer_onboarding.customer_onboarding_test">
                 <methods>
-                    <include name="verify_value_in_currency_exchange_rate"></include>
+                    <include name="login_with_valid_credentials"></include>
                 </methods>
             </class>
         </classes>
